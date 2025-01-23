@@ -311,3 +311,23 @@ template {
 [hidden] {
   display: none;
 }
+
+/* Prevent adjustments of font size after orientation changes.  */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  height: 100%;
+}
+
+/*---- apply a natural box layout model to all elements -------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+  color: #222222;
+}
