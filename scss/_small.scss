@@ -18,11 +18,13 @@ body {
     font-family: $defaultFont;
     font-weight: $normalWeight;
     color: $fontColor;
+    background-color: $almostWhite;
 }
 
 #headerWrapper {
-  background-color: $almostWhite;
+  background-color: #FFFFFF;
   color: $darkBlue;
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.1));
 }
 
 header {

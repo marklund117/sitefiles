@@ -330,11 +330,13 @@ body {
   font-family: "Montserrat", serif;
   font-weight: 500;
   color: #222222;
+  background-color: #f5f5f5;
 }
 
 #headerWrapper {
-  background-color: #f5f5f5;
+  background-color: #FFFFFF;
   color: #1d3461;
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.1));
 }
 
 header {
