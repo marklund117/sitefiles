@@ -19,6 +19,7 @@ body {
     font-weight: $normalWeight;
     color: $fontColor;
     background-color: $almostWhite;
+    min-width: 320px;
 }
 
 #headerWrapper {
@@ -28,10 +29,11 @@ body {
 }
 
 header {
-  display: flex;
-  align-items: flex-end;
-  padding: 1rem $gutter;
-  gap: 8px;
+  display: grid;
+  grid-template-columns: 50px auto 44px;
+  column-gap: $gutter;
+align-items: center;
+padding: .5rem $gutter;
   h1 {
     margin: 0;
     font-size: 1.8rem;

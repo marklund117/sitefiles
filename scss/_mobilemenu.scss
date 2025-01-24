@@ -1,0 +1,63 @@
+#theButton {
+    border: none;
+    background: none;
+    font-size: 2rem;
+    color: #555;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+
+    &::before {
+        content: "\2630";
+    }
+}
+
+#theButton.open::before {
+    content: "\2715";
+    font-size: 1.6rem;
+}
+
+#theNav {
+    background-color: $darkBlue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+
+
+    li a {
+        display: block;
+        padding: .75rem 2vw;
+        font-size: 14px;
+        color: $almostWhite;
+        text-decoration: none;
+        border-top: 1px solid $lightBlue;
+    }
+    li.active a {
+        background-color: $lightBlue;
+        color: white;
+    }
+    li a:hover {
+        background-color: rgba(0, 0, 0, .3)
+    }
+    &.open {
+        height: auto;
+    }
+}
+
+.parent>a::after {
+    content: "\25BC";
+    float: right;
+}
+
+.parent ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: $primaryBlue;
+    display: none;
+}
+
+.parent:hover ul {
+    display: block;
+}
