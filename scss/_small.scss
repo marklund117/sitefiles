@@ -19,3 +19,20 @@ body {
     font-weight: $normalWeight;
     color: $fontColor;
 }
+
+#headerWrapper {
+  background-color: $almostWhite;
+  color: $darkBlue;
+}
+
+header {
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem $gutter;
+  gap: 8px;
+  h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: $normalWeight;
+  }
+}
