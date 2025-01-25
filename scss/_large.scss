@@ -9,3 +9,15 @@ header {
         font-weight: $normalWeight;
     }
 }
+
+#theButton {
+    display: none;
+}
+
+#theNav {
+    height: auto;
+    display: flex;
+    li ul {
+        position: absolute;
+    }
+}
