@@ -40,3 +40,11 @@ padding: .5rem $gutter;
     font-weight: $normalWeight;
   }
 }
+
+#mainWrapper {
+  max-width: 70rem;
+  margin: auto;
+  .hero img {
+    max-width: 100%;
+  }
+}
