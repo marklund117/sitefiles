@@ -1,25 +1,25 @@
 /* Prevent adjustments of font size after orientation changes.  */
 html {
-    -moz-text-size-adjust: none;
-    -webkit-text-size-adjust: none;
-    text-size-adjust: none;
-    height: 100%;
-  }
-  
-  /*---- apply a natural box layout model to all elements -------*/
-  * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  height: 100%;
+}
+
+/*---- apply a natural box layout model to all elements -------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 body {
-    height: 100%;
-    font-family: $defaultFont;
-    font-weight: $normalWeight;
-    color: $fontColor;
-    background-color: $almostWhite;
-    min-width: 320px;
+  height: 100%;
+  font-family: $defaultFont;
+  font-weight: $normalWeight;
+  color: $fontColor;
+  background-color: $almostWhite;
+  min-width: 320px;
 }
 
 #headerWrapper {
@@ -32,8 +32,9 @@ header {
   display: grid;
   grid-template-columns: 50px auto 44px;
   column-gap: $gutter;
-align-items: center;
-padding: .5rem $gutter;
+  align-items: center;
+  padding: .5rem $gutter;
+
   h1 {
     margin: 0;
     font-size: 1.8rem;
@@ -44,6 +45,7 @@ padding: .5rem $gutter;
 #mainWrapper {
   max-width: 70rem;
   margin: auto;
+
   .hero img {
     max-width: 100%;
   }
@@ -51,4 +53,56 @@ padding: .5rem $gutter;
 
 #contentWrapper {
   padding: 0 $gutter;
+}
+
+footer {
+  padding: 0.5rem $gutter;
+  background-color: #d1d1d1;
+  section.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      font-size: 1.2rem;
+      margin: .5rem;
+    }
+    a {
+      color: $darkBlue;
+    }
+  }
+
+  section.social {
+    display: flex;
+    justify-content: center;
+    a {
+      display: block;
+      border: solid 1px $primaryBlue;
+      font-size: 2rem;
+      margin: .5rem;
+      padding: .5rem;
+      border-radius: 5px;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+    }
+    i {
+      color: $darkBlue;
+    }
+  }
+
+  section.address {
+    margin: 0;
+    font-weight: $lightWeight;
+    text-align: center;
+  }
+
+  p.legal {
+    margin: 0;
+    font-weight: $lightWeight;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
 }

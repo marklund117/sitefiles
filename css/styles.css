@@ -367,6 +367,55 @@ header h1 {
   padding: 0 16px;
 }
 
+footer {
+  padding: 0.5rem 16px;
+  background-color: #d1d1d1;
+}
+footer section.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer section.contact p {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+footer section.contact a {
+  color: #1d3461;
+}
+footer section.social {
+  display: flex;
+  justify-content: center;
+}
+footer section.social a {
+  display: block;
+  border: solid 1px #376996;
+  font-size: 2rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+footer section.social i {
+  color: #1d3461;
+}
+footer section.address {
+  margin: 0;
+  font-weight: 300;
+  text-align: center;
+}
+footer p.legal {
+  margin: 0;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
 @media only screen and (min-width: 320px) {
   #theButton {
     border: none;
