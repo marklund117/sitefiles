@@ -358,6 +358,7 @@ header h1 {
 #mainWrapper {
   max-width: 70rem;
   margin: auto;
+  min-height: 95vh;
 }
 #mainWrapper .hero img {
   max-width: 100%;
@@ -377,7 +378,7 @@ footer section.contact {
   align-items: center;
 }
 footer section.contact p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0.5rem;
 }
 footer section.contact a {
@@ -404,10 +405,16 @@ footer section.social a {
 footer section.social i {
   color: #1d3461;
 }
+footer section.social a:hover {
+  background-color: #c6daeb;
+}
 footer section.address {
   margin: 0;
   font-weight: 300;
   text-align: center;
+  margin-top: 0.5rem;
+  color: #1d3461;
+  font-weight: 700;
 }
 footer p.legal {
   margin: 0;
@@ -473,6 +480,12 @@ footer p.legal {
     display: block;
   }
 }
+@media only screen and (min-width: 576px) {
+  footer div {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
 @media only screen and (min-width: 768px) {
   header, nav, main, footer {
     max-width: 70rem;
@@ -491,5 +504,9 @@ footer p.legal {
   }
   #theNav li ul {
     position: absolute;
+  }
+  footer div {
+    display: grid;
+    grid-template-columns: auto auto auto;
   }
 }

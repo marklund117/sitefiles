@@ -45,6 +45,7 @@ header {
 #mainWrapper {
   max-width: 70rem;
   margin: auto;
+  min-height: 95vh;
 
   .hero img {
     max-width: 100%;
@@ -63,7 +64,7 @@ footer {
     flex-direction: column;
     align-items: center;
     p {
-      font-size: 1.2rem;
+      font-size: 1rem;
       margin: .5rem;
     }
     a {
@@ -91,18 +92,24 @@ footer {
     i {
       color: $darkBlue;
     }
+    a:hover {
+      background-color: #c6daeb;
+    }
   }
 
   section.address {
     margin: 0;
     font-weight: $lightWeight;
     text-align: center;
+    margin-top: .5rem;
+    color: $darkBlue;
+    font-weight: $boldWeight;
   }
 
   p.legal {
     margin: 0;
     font-weight: $lightWeight;
     text-align: center;
-    margin-top: 0.5rem;
+    margin-top: .5rem;
   }
 }
