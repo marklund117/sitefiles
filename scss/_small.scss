@@ -56,6 +56,12 @@ header {
   padding: 0 $gutter;
 }
 
+// create for loop to generate grid classes
+@for $i from 1 through 12 {
+  $w: calc($i/12) * 100%;
+  .small-#{$i} {flex-basis: $w;}
+}
+
 footer {
   padding: 0.5rem $gutter;
   background-color: #d1d1d1;
@@ -111,5 +117,13 @@ footer {
     font-weight: $lightWeight;
     text-align: center;
     margin-top: .5rem;
+  }
+}
+
+// card one
+.card1 {
+  figure {
+    margin: 0;
+    img {width: 100%; height: auto;}
   }
 }

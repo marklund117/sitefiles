@@ -368,6 +368,54 @@ header h1 {
   padding: 0 16px;
 }
 
+.small-1 {
+  flex-basis: 8.3333333333%;
+}
+
+.small-2 {
+  flex-basis: 16.6666666667%;
+}
+
+.small-3 {
+  flex-basis: 25%;
+}
+
+.small-4 {
+  flex-basis: 33.3333333333%;
+}
+
+.small-5 {
+  flex-basis: 41.6666666667%;
+}
+
+.small-6 {
+  flex-basis: 50%;
+}
+
+.small-7 {
+  flex-basis: 58.3333333333%;
+}
+
+.small-8 {
+  flex-basis: 66.6666666667%;
+}
+
+.small-9 {
+  flex-basis: 75%;
+}
+
+.small-10 {
+  flex-basis: 83.3333333333%;
+}
+
+.small-11 {
+  flex-basis: 91.6666666667%;
+}
+
+.small-12 {
+  flex-basis: 100%;
+}
+
 footer {
   padding: 0.5rem 16px;
   background-color: #d1d1d1;
@@ -421,6 +469,14 @@ footer p.legal {
   font-weight: 300;
   text-align: center;
   margin-top: 0.5rem;
+}
+
+.card1 figure {
+  margin: 0;
+}
+.card1 figure img {
+  width: 100%;
+  height: auto;
 }
 
 @media only screen and (min-width: 320px) {
@@ -481,6 +537,42 @@ footer p.legal {
   }
 }
 @media only screen and (min-width: 576px) {
+  .medium-1 {
+    flex-basis: 8.3333333333%;
+  }
+  .medium-2 {
+    flex-basis: 16.6666666667%;
+  }
+  .medium-3 {
+    flex-basis: 25%;
+  }
+  .medium-4 {
+    flex-basis: 33.3333333333%;
+  }
+  .medium-5 {
+    flex-basis: 41.6666666667%;
+  }
+  .medium-6 {
+    flex-basis: 50%;
+  }
+  .medium-7 {
+    flex-basis: 58.3333333333%;
+  }
+  .medium-8 {
+    flex-basis: 66.6666666667%;
+  }
+  .medium-9 {
+    flex-basis: 75%;
+  }
+  .medium-10 {
+    flex-basis: 83.3333333333%;
+  }
+  .medium-11 {
+    flex-basis: 91.6666666667%;
+  }
+  .medium-12 {
+    flex-basis: 100%;
+  }
   footer div {
     display: grid;
     grid-template-columns: auto auto;
@@ -504,6 +596,42 @@ footer p.legal {
   }
   #theNav li ul {
     position: absolute;
+  }
+  .large-1 {
+    flex-basis: 8.3333333333%;
+  }
+  .large-2 {
+    flex-basis: 16.6666666667%;
+  }
+  .large-3 {
+    flex-basis: 25%;
+  }
+  .large-4 {
+    flex-basis: 33.3333333333%;
+  }
+  .large-5 {
+    flex-basis: 41.6666666667%;
+  }
+  .large-6 {
+    flex-basis: 50%;
+  }
+  .large-7 {
+    flex-basis: 58.3333333333%;
+  }
+  .large-8 {
+    flex-basis: 66.6666666667%;
+  }
+  .large-9 {
+    flex-basis: 75%;
+  }
+  .large-10 {
+    flex-basis: 83.3333333333%;
+  }
+  .large-11 {
+    flex-basis: 91.6666666667%;
+  }
+  .large-12 {
+    flex-basis: 100%;
   }
   footer div {
     display: grid;
