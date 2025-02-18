@@ -138,7 +138,18 @@ footer {
 // card one
 .card1 {
   figure {
-    margin: 0;
-    img {width: 100%; height: auto;}
+    margin: 1rem 0;
+    border-radius: 6px;
+    overflow: hidden;
+    img {width: 100%; height: auto; display: block;}
+    figcaption {
+      padding: .5rem;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      font-weight: $boldWeight;
+      text-align: center;
+      background: $primaryBlue;
+      color: $almostWhite;
+    }
   }
 }
